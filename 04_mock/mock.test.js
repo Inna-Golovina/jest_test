@@ -32,9 +32,9 @@ describe('map function', () => {
       .mockReturnValueOnce(200)
       .mockReturnValue('42')
 
-      expect(fn()).toBe(100)
-      expect(fn()).toEqual(200)
-      expect(fn()).toEqual('42')
-      expect(fn()).toEqual('42')
+      expect(fn()).toBe(100);
+      expect(fn()).toEqual(200);
+      expect(fn()).toEqual('42');
+      expect(fn()).toEqual('42');
   })
 })
